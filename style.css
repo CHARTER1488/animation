@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(51, 50, 50);
+    animation-name: cambiar-fondo;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes cambiar-fondo{
+    to{background-color: rgb(88, 86, 86);
+        }
+}
+
+h1{
+    text-align: center;
+    color: rgb(247, 6, 6);
+    animation-name: -fondo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes -fondo{
+  
+    to{color: rgb(1, 0, 7);
+        }
+}
+
+.botones {
+    background-color: blue;
+    text-align: center;
+    color: rgb(247, 6, 6);
+    animation-name: boton;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+}
+@keyframes  boton{
+    from{font-size: 15px;}
+    to{font-size: 20px;}
+    to{background-color: red;}
+    to{color: rgb(1, 0, 7);
+        }
+}
